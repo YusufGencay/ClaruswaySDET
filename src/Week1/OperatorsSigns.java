@@ -24,7 +24,26 @@ public class OperatorsSigns {
         System.out.println(isTrue);
         System.out.println(isFalse);
 
+// " > "  Greater than , sign in Java boolean isTrue = 13 > 12
 
+        isTrue = 12 > 13;
+        System.out.println("12 > 13 -->  true or false? " + isTrue);
+
+// "<" Less than, sign in Java boolean
+        isTrue = 12 < 13;
+        System.out.println("12 < 13 -->  true or false? " + isTrue);
+
+// ">= Greater than or equal to sign in Java
+        isTrue = 12 >= 13;
+        isTrue = 12 >= 12;
+        System.out.println("12 >= 13 -->  true or false? " + (12 >= 13));
+        System.out.println("12 >= 12 -->  true or false? " + (12 >= 12));
+
+// <=less than or equal to sign in Java
+        isTrue = 12 <= 13;
+        isTrue = 12 <= 12;
+        System.out.println("12 <= 13 -->  true or false? " + (12 <= 13));
+        System.out.println("12 <= 12 -->  true or false? " + (12 <= 12));
     }
 
 }
