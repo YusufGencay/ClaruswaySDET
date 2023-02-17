@@ -16,9 +16,9 @@ b = 3;
 
     }
 
-    void sum (int x, int y) {
+    void sum (int x, int y){
         int a = 0;
         int b = 0;
-        System.out.println(x + y);
-    }
+        System.out.println(x+y);
+       }
 }
